@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ryoyasato',
+    maintainer='Ryoya SATO',
     maintainer_email='satoryoya1012711@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='ZX200 Teleoperation package using PS5 controller',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'twostick_node = my_teleop.joy_to_turtle_twostick:main',
+            'zx200_teleop_node = my_teleop.zx200_ps5_teleop:main',
             ],
     },
 )

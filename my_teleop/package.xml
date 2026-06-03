@@ -3,15 +3,17 @@
 <package format="3">
   <name>my_teleop</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="satoryoya1012711@gmail.com">ryoyasato</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ZX200 Teleopration package using PS5 controller</description>
+  <maintainer email="satoryoya1012711@gmail.com">Ryoya SATO</maintainer>
+  <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
-
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>com3_msgs</depend>
   <export>
     <build_type>ament_python</build_type>
   </export>
