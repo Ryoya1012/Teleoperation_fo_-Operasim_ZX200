@@ -11,6 +11,8 @@
 - 使用については, 以下の依存パッケージとシミュレーション環境が用意されていれば使用することができる.
 - コントローラ(左右のジョイステック)のアサインは図1の通りであり新JIS規格に習っている.
 
+<img width="2094" height="1480" alt="Controller operation lever assignment" src="https://github.com/user-attachments/assets/d0e438b2-90d6-424e-b928-20795a32a6c7" />
+
 
 ## ビルド・実行方法
 ```bash
