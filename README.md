@@ -4,10 +4,13 @@
 - このリポジトリは, Opera-sim(AGX版)で実装されているドラグショベル(zx200)をコントローラ(Dual Sense / ELECOM Gaming Controller)で操作するためのノードである.
 
 ## 依存パッケージ
-- [https://github.com/Ar-Ray-code/ps_ros2_common/](ps_ros2_common)
+- [ps_ros2_common](https://github.com/Ar-Ray-code/ps_ros2_common/)
 
+
+## 仕様
 - 使用については, 以下の依存パッケージとシミュレーション環境が用意されていれば使用することができる.
 - コントローラ(左右のジョイステック)のアサインは図1の通りであり新JIS規格に習っている.
+
 
 ## ビルド・実行方法
 ```bash
