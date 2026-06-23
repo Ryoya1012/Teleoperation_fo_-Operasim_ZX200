@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'zx200_teleop_node = my_teleop.zx200_ps5_teleop:main',
+            #'zx200_teleop_node = my_teleop.zx200_ps5_teleop:main',
+            'zx200_teleop_node = my_teleop.zx200_elecom_teleop:main',
             ],
     },
 )
